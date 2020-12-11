@@ -1,5 +1,5 @@
 node('jenkinsbuildnode') {
-stage('Clone') {
+stage('Prepare') {
     echo "1.Clone Stage"
     git url: "https://github.com/kakaNo1/jenkins-demo.git"
     script {
